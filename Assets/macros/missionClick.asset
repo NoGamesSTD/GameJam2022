@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: missionClick
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"7bb93108-26db-40ac-bb6e-702ac825058c","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-210.0,"y":-253.0},"guid":"e9abd120-0836-40bc-b2f9-dc33a48bb460","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-137.0,"y":-32.0},"guid":"5fd10731-f2f6-41fd-acc3-8bb374e244a3","$version":"A","$type":"Unity.VisualScripting.OnMouseDown","$id":"13"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":118.0,"y":-68.0},"guid":"6fe09989-31ca-40d8-b989-c790d2a10a8e","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"type":"System.String","value":{"$content":"si
+      jala","$type":"System.String"},"defaultValues":{},"position":{"x":-81.0,"y":87.0},"guid":"5936bae8-ed43-4743-a2f6-c2efecd0e99d","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"36dd6996-ca8a-429c-9274-3c591b8ed02a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"%message","guid":"c2e94d4f-9270-454a-8a5e-4068ad1fa5bb","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
